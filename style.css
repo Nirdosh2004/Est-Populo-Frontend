@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+*::selection{
+          color: #f8f8f8;
+          background-color: #212125;
+}
+
+html,body{
+          font-family: "Poppins", sans-serif;
+          height: 100%;
+          width: 100%;
+          background-color: #f8f8f8;
+          border-radius: 23px;
+          
+}
+
+h1 , h2 , h3,h4,h5,h6 , p{
+          color: #212125;
+}
+
+#top{
+          background-color: #E5E3DB;
+}
+
+#top  >img{
+          height: 30px;
+          width: fit-content;
+          margin-left: 10px ;
+}
+
+#frame1{
+          margin: 10px 20px;  
+          /* background-color: grey;   */
+}
+
+#top2{
+          display: flex;
+          
+}
+
+#top2 > h1{
+          font-weight: 550;
+}
+
+#top2 > img{
+          height: 30px;
+          width: fit-content;
+          margin-left: 380px;
+          margin-top: 30px;
+          
+}
+
+#top2 > a{
+          color: #212125;
+          font-weight: 577;
+          text-decoration: underline;
+          margin-left: 470px;
+          margin-top: 25px;
+          font-size: 10px;
+}
+
+#center1{
+          margin-top: 20px;
+          display: flex;
+          /* background-color: grey; */
+}
+
+#center1 > img{
+          height: 200px;
+          width: fit-content;
+          border-radius: 23px;
+          margin-left: 590px;
+}
+
+#center1  > h4{
+          margin-left: 100px;
+          font-size: 08px;
+          font-weight: 500;
+}
+
+#titlename{
+          /* background-color: grey; */
+}
+
+#titlename > h1{
+          font-size: 100px;
+          margin-left: 420px;
+}
+
+#brandslogo{
+          background-color: #E5E3DB;
+          height: 100px;
+          border-radius: 21px;
+          
+}
+
+#headings{
+          display: flex;
+          justify-content: space-around;
+         
+}
+
+#headings > #one , #two , #three , #four , #five{
+          margin-top: 40px;
+}
+
+#headings > #one{
+          font-family: "Fredericka the Great", serif;
+}
+
+#headings > #two{
+          font-family: "Rasa", serif;
+}
+
+#headings > #three{
+          font-family: "Cedarville Cursive", cursive;
+        font-style: italic;
+}
+
+#headings > #four{
+          font-family: "Roboto Mono", monospace;
+}
+
+#headings > #five{
+          font-family: "Reem Kufi Fun", sans-serif;
+          font-style: italic;
+}
+
+#headings  > img{
+          height: 100px;
+          width: fit-content;
+}
+
+/* frame 2 **********************************************  */
+/* ::::::::::::::::::::::::::::::::::::::::::  */
+
+#frame2{
+          /* background-color: grey; */
+          margin-left: 50px;
+          margin-top: 50px;
+}
+
+#frame2 > #headings1{
+          display: flex;
+}
+
+#frame2 > #headings1 > h1{
+          margin-left: 100px;
+          font-weight: 550;
+          letter-spacing: -1px;
+}
+
+#frame2 > #headings1 > h5{
+          margin-top: 10px;
+          font-size: 10px;      
+}
+
+#frame2 > #headings3 > #para > #btn1{
+          display: flex;
+          margin-top: 50px;
+}
+
+#frame2 > #headings3 > #para > p {
+          font-size: 15px;
+}
+
+#frame2 > #headings3{
+          margin-left: 200px;
+          margin-top: 100px;
+}
+
+#frame2 > #headings3 > #para > #btn1 > #viewaboutuslogo{
+          height: 25px;
+          margin-left: 5px;
+          width: fit-content;
+          font-weight: 300;
+}
+
+#frame2 > #headings3 > #para > #btn1 > #viewaboutus1{
+          color: #212125;
+          font-weight: 600;
+
+}
+#frame2  >#headings2  > h1{
+          font-weight: 550;
+          letter-spacing: -1px;
+}
+#frame2 > #headings3{
+          display: flex;
+}
+
+#frame2 > #headings3 > #owl{
+          height: 500px;
+          width: fit-content;
+          margin-left: 250px;
+          margin-top: -150px;
+          border-radius: 23px;
+}
+
+/* frame 3 **********************************************  */
+/* ::::::::::::::::::::::::::::::::::::::::::  */
+
+#frame3{
+          margin-top: 50px;
+          margin-left: 50px;
+}
+
+#frame3 > #top1 > h5{
+          margin-top: 10px;
+          font-size: 10px; 
+}
+
+#frame3 > #headings > h1{
+          margin-left: 100px;
+font-weight: 550;
+letter-spacing: -1px;
+}
