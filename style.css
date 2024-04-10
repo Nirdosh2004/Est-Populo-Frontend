@@ -20,6 +20,11 @@ html,body{
           
 }
 
+a{
+  color: #212125;
+  font-weight: 550;
+}
+
 h1 , h2 , h3,h4,h5,h6 , p{
           color: #212125;
 }
@@ -220,4 +225,236 @@ h1 , h2 , h3,h4,h5,h6 , p{
           margin-left: 100px;
 font-weight: 550;
 letter-spacing: -1px;
+}
+
+
+
+#frame3 > #content  > #performance{
+  display: flex;
+  /* text-decoration: underline; */
+}
+
+#frame3 > #content  > #performance > img{
+  height: 200px;
+  width: fit-content;
+  border-radius: 21px;
+  margin-left: 250px;
+  margin-top: 110px;
+  /* margin-right: 100px; */
+}
+
+#frame3 > #content  > #performance > h1{
+  font-size: 100px;
+  margin-top: 90px;
+  margin-left: 70px;
+  color: #212125;
+}
+
+#frame3 > #content  > #performance > h2{
+  font-size: 13px;
+  margin-top: 280px;
+  margin-left: -670px;
+}
+
+#frame3 > #content  > #performance > p{
+  /* font-size: 13px; */
+  margin-top: 250px;
+  margin-left: 15px;
+}
+
+#frame3 > #content  > #performance > a{
+  margin-top: 280px;
+  /* margin-right: -20px; */
+  margin-left: 330px;
+}
+
+#frame3 > #content  > #performance > #icon{
+  height: 20px;
+  width: fit-content;
+  margin-top: 280px;
+  margin-left: 5px;
+}
+
+#frame3 > #content  > #growth{
+  display: flex;
+  /* text-decoration: underline; */
+}
+
+#frame3 > #content  > #growth > img{
+  height: 200px;
+  width: fit-content;
+  border-radius: 21px;
+  margin-left: 250px;
+  margin-top: 110px;
+  /* margin-right: 100px; */
+}
+
+#frame3 > #content  > #growth > h1{
+  font-size: 100px;
+  margin-top: 90px;
+  margin-left: 70px;
+  color: #212125;
+}
+
+#frame3 > #content  > #growth > h2{
+  font-size: 13px;
+  margin-top: 280px;
+  margin-left: -370px;
+}
+
+#frame3 > #content  > #growth > p{
+  /* font-size: 13px; */
+  margin-top: 250px;
+  margin-left: 15px;
+}
+
+#frame3 > #content  > #growth > a{
+  margin-top: 280px;
+  /* margin-right: -20px; */
+  margin-left: 330px;
+}
+
+#frame3 > #content  > #growth> #icon{
+  height: 20px;
+  width: fit-content;
+  margin-top: 280px;
+  margin-left: 5px;
+}
+
+#frame3 > #content  > #creative{
+  display: flex;
+  /* text-decoration: underline; */
+}
+
+#frame3 > #content  >  #creative > img{
+  height: 200px;
+  width: fit-content;
+  border-radius: 21px;
+  margin-left: 250px;
+  margin-top: 110px;
+  /* margin-right: 100px; */
+}
+
+#frame3 > #content  >  #creative > h1{
+  font-size: 100px;
+  margin-top: 90px;
+  margin-left: 70px;
+  color: #212125;
+}
+
+#frame3 > #content  > #creative > h2{
+  font-size: 13px;
+  margin-top: 280px;
+  margin-left: -420px;
+}
+
+#frame3 > #content  > #creative > p{
+  /* font-size: 13px; */
+  margin-top: 250px;
+  margin-left: 15px;
+}
+
+#frame3 > #content  >  #creative > a{
+  margin-top: 280px;
+  /* margin-right: -20px; */
+  margin-left: 330px;
+}
+
+#frame3 > #content  > #creative> #icon{
+  height: 20px;
+  width: fit-content;
+  margin-top: 280px;
+  margin-left: 5px;
+}
+
+#frame3 > #content  > #brands{
+  display: flex;
+  /* text-decoration: underline; */
+}
+
+#frame3 > #content  >#brands > img{
+  height: 200px;
+  width: fit-content;
+  border-radius: 21px;
+  margin-left: 250px;
+  margin-top: 110px;
+  /* margin-right: 100px; */
+}
+
+#frame3 > #content  > #brands> h1{
+  font-size: 100px;
+  margin-top: 90px;
+  margin-left: 70px;
+  color: #212125;
+}
+
+#frame3 > #content  > #brands > h2{
+  font-size: 13px;
+  margin-top: 280px;
+  margin-left: -360px;
+}
+
+#frame3 > #content  > #brands > p{
+  /* font-size: 13px; */
+  margin-top: 250px;
+  margin-left: 15px;
+}
+
+#frame3 > #content  > #brands > a{
+  margin-top: 280px;
+  /* margin-right: -20px; */
+  margin-left: 350px;
+}
+
+#frame3 > #content  > #brands > #icon{
+  height: 20px;
+  width: fit-content;
+  margin-top: 280px;
+  margin-left: 5px;
+}
+
+#frame3 > #content  > #aboutus{
+  display: flex;
+  /* text-decoration: underline; */
+}
+
+#frame3 > #content  >#aboutus > img{
+  height: 200px;
+  width: fit-content;
+  border-radius: 21px;
+  margin-left: 250px;
+  margin-top: 110px;
+  /* margin-right: 100px; */
+}
+
+#frame3 > #content  > #aboutus >  h1{
+  font-size: 100px;
+  margin-top: 90px;
+  margin-left: 70px;
+  color: #212125;
+}
+
+#frame3 > #content  > #aboutus > h2{
+  font-size: 13px;
+  margin-top: 280px;
+  margin-left: -450px;
+}
+
+#frame3 > #content  > #aboutus> p{
+  /* font-size: 13px; */
+  margin-top: 250px;
+  margin-left: 15px;
+}
+
+#frame3 > #content  > #aboutus > a{
+  margin-top: 280px;
+  /* margin-right: -20px; */
+  margin-left: 350px;
+}
+
+#frame3 > #content  > #aboutus > #icon{
+  height: 20px;
+  width: fit-content;
+  margin-top: 280px;
+  margin-left: 5px;
 }
