@@ -23,6 +23,12 @@ html,body{
 a{
   color: #212125;
   font-weight: 550;
+  /* text-decoration: none; */
+}
+
+a:hover{
+  color: #555D50;
+  text-decoration: none;
 }
 
 h1 , h2 , h3,h4,h5,h6 , p{
@@ -40,6 +46,9 @@ h1 , h2 , h3,h4,h5,h6 , p{
 }
 
 #frame1{
+  border: 1.5px solid #212125;
+  padding: 10px;
+  border-radius: 21px;
           margin: 10px 20px;  
           /* background-color: grey;   */
 }
@@ -146,6 +155,9 @@ h1 , h2 , h3,h4,h5,h6 , p{
 /* ::::::::::::::::::::::::::::::::::::::::::  */
 
 #frame2{
+  border: 1.5px solid #212125;
+  padding: 10px;
+  border-radius: 21px;
           /* background-color: grey; */
           margin-left: 50px;
           margin-top: 50px;
@@ -212,6 +224,9 @@ h1 , h2 , h3,h4,h5,h6 , p{
 /* ::::::::::::::::::::::::::::::::::::::::::  */
 
 #frame3{
+  border: 1.5px solid #212125;
+  padding: 10px;
+  border-radius: 21px;
           margin-top: 50px;
           margin-left: 50px;
 }
@@ -457,4 +472,836 @@ letter-spacing: -1px;
   width: fit-content;
   margin-top: 280px;
   margin-left: 5px;
+}
+
+#frame4{
+  border: 1.5px solid #212125;
+  padding: 10px;
+  border-radius: 21px;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+#frame4 > #headings > #onee{
+
+  margin-left: 150px;
+  font-size: 40px;
+}
+
+#frame4 > #headings > #date{
+  margin-left: -600px;
+  margin-top: 40px;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+#frame4 > #paraa{ 
+  display: flex;
+}
+
+#frame4 > #paraa  > p{
+  margin-left: 300px;
+  margin-top: 50px;
+  /* font-size: 10px; */
+}
+
+#frame4 > #paraa  > a{
+  margin-top: 120px;
+  margin-left: 400px ;
+
+}
+
+#frame4 > #paraa  > #icon{
+  height: 20px;
+  width: fit-content;
+  margin-top: 120px;
+  margin-left: 5px;
+}
+
+#frame4 > #imgcontainer{
+  margin-top: 100px;
+  margin-left: 30px;
+  display: flex;
+}
+
+#frame4 > #imgcontainer  > img{
+  height: 200px;
+  width: fit-content;
+}
+
+#frame4 > #imgcontainer  > #one{
+  margin-top: 100px;
+  /* margin-left: 1px; */
+  border-radius: 21px;
+  margin-right: 20px;
+}
+
+#frame4 > #imgcontainer  > #two {
+  height: 330px;
+  width: fit-content;
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-top: -27px;
+}
+
+#frame4 > #imgcontainer  > #three {
+  height: 330px;
+  width: fit-content;
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-top: -27px;
+}
+
+#frame4 > #imgcontainer  > #four {
+  height: 330px;
+  width: fit-content;
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-top: -27px;
+}
+
+#frame4 > #imgcontainer  > #five {
+  height: 330px;
+  width: fit-content;
+  border-radius: 15px;
+  margin-right: 20px;
+  margin-top: -27px;
+}
+
+#frame4 > #what  {
+  margin-left: 40px;
+  margin-top: 100px;
+  margin-bottom: -150px;
+  /* background-color: grey; */
+}
+
+#frame4 > #what  > #icon{
+  height: 20px;
+  margin-top: 1px;
+  width: fit-content;
+}
+
+#frame5{
+  border: 1.5px solid #212125;
+  padding: 10px;
+  border-radius: 21px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+#frame5 > h1{
+  font-size: 70px;
+}
+
+#frame5 > #second{
+  margin-top: -35px;
+}
+
+
+#frame5 > #icon{
+  height: 20px;
+  width: fit-content;
+}
+
+#frame5 > #social{
+  margin-top: 50px;
+  /* background-color: green; */
+  margin-left: 500px;
+}
+
+#frame5 > #handles{
+  margin-top: -95px;
+ 
+  margin-left: 700px;
+}
+
+#frame5 > #places{
+  margin-top: 200px ;
+  margin-left: 500px;
+  opacity: 50%;
+}
+
+#frame5 > #conditions{
+  margin-top: -50px;
+ opacity: 70%;
+  margin-left: 700px;
+}
+
+#frame5 > #last{
+  margin-top: -50px;
+  /* opacity: 70%; */
+   margin-left: 1120px;
+   /* align-self: flex-end; */
+}
+
+#frame5 > #last > img{
+  height: 20px;
+  width: fit-content;
+  font-size: 10px;
+}
+
+#frame6{
+  border: 1.5px solid #212125;
+  padding: 10px;
+  border-radius: 21px;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+#frame6 > #nav{
+  display: flex;
+}
+
+#frame6 > #nav  >h1{
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#frame6 > #nav > h4{
+  font-size: 10px;
+  font-weight: 500;
+  margin-left: 300px;
+}
+
+#frame6 > #nav > img{
+  height: 20px;
+  width: fit-content;
+  margin-left: 300px;
+}
+
+#frame6 > #nav > a{
+  font-size: 10px;
+  margin-left: 300px;
+}
+
+#frame6 > #mainb{
+ 
+ 
+  margin-top: -10px;
+  margin-left: 50px;
+  display: flex;
+}
+
+#frame6 > #mainb > h5{
+  font-size: 8px;
+  margin-top: 140px;
+}
+
+#frame6 > #mainb > h1{
+  font-size: 137px;
+  letter-spacing: -1px;
+  margin-left: 10px;
+}
+
+#frame6 > #first{
+  margin-left: 70px;
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+#frame6 > #second{
+  margin-left: 500px;
+  font-size: 13px;
+  margin-top: -220px;
+  
+}
+
+#frame6 > #oneI{
+  height: 357px;
+  width: fit-content;
+  margin-left: 1000px;
+  border-radius: 17px;
+  margin-top: -1000px;
+}
+
+#frame6 > #twoI{
+  width: 377px;
+  height: fit-content;
+  border-radius: 17px;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+#frame6 > #corner{
+  font-size: 15px;
+  margin-left: 800px;
+  margin-top: -150px;
+
+}
+
+#frame7{
+  border: 1.5px solid #212125;
+  padding: 10px;
+  border-radius: 21px;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+#frame7 > #nav{
+  display: flex;
+}
+
+#frame7 > #nav  >h1{
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#frame7 > #nav > h4{
+  font-size: 10px;
+  font-weight: 500;
+  margin-left: 300px;
+}
+
+#frame7 > #nav > img{
+  height: 20px;
+  width: fit-content;
+  margin-left: 300px;
+}
+
+#frame7 > #nav > a{
+  font-size: 10px;
+  margin-left: 300px;
+}
+
+#frame7 > #mainb{
+ 
+ 
+  margin-top: -10px;
+  margin-left: 50px;
+  display: flex;
+}
+
+#frame7 > #mainb > h5{
+  font-size: 8px;
+  margin-top: 140px;
+}
+
+#frame7 > #mainb > h1{
+  font-size: 137px;
+  letter-spacing: -1px;
+  margin-left: 10px;
+}
+
+#frame7 > #first{
+  margin-left: 70px;
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+#frame7 > #second{
+  margin-left: 500px;
+  font-size: 13px;
+  margin-top: -220px;
+  
+}
+
+#frame7 > #oneI{
+  height: 357px;
+  width: fit-content;
+  margin-left: 1000px;
+  border-radius: 17px;
+  margin-top: -1000px;
+}
+
+#frame7 > #twoI{
+  width: 377px;
+  height: fit-content;
+  border-radius: 17px;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+#frame7 > #corner{
+  font-size: 15px;
+  margin-left: 800px;
+  margin-top: -150px;
+
+}
+
+#frame8{
+  border: 1.5px solid #212125;
+  padding: 10px;
+  border-radius: 21px;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+#frame8 > #nav{
+  display: flex;
+}
+
+#frame8 > #nav  >h1{
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#frame8 > #nav > h4{
+  font-size: 10px;
+  font-weight: 500;
+  margin-left: 300px;
+}
+
+#frame8 > #nav > img{
+  height: 20px;
+  width: fit-content;
+  margin-left: 300px;
+}
+
+#frame8 > #nav > a{
+  font-size: 10px;
+  margin-left: 300px;
+}
+
+#frame8 > #mainb{
+ 
+ 
+  margin-top: -10px;
+  margin-left: 50px;
+  display: flex;
+}
+
+#frame8 > #mainb > h5{
+  font-size: 8px;
+  margin-top: 140px;
+}
+
+#frame8 > #mainb > h1{
+  font-size: 137px;
+  letter-spacing: -1px;
+  margin-left: 10px;
+}
+
+#frame8 > #first{
+  margin-left: 70px;
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+#frame8 > #second{
+  margin-left: 500px;
+  font-size: 13px;
+  margin-top: -220px;
+  
+}
+
+#frame8 > #oneI{
+  height: 357px;
+  width: fit-content;
+  margin-left: 1000px;
+  border-radius: 17px;
+  margin-top: -1000px;
+}
+
+#frame8 > #twoI{
+  width: 377px;
+  height: fit-content;
+  border-radius: 17px;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+#frame8 > #corner{
+  font-size: 15px;
+  margin-left: 800px;
+  margin-top: -150px;
+
+}
+
+#frame9{
+  border: 1.5px solid #212125;
+  padding: 10px;
+  border-radius: 21px;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+#frame9 > #nav{
+  display: flex;
+}
+
+#frame9 > #nav  >h1{
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#frame9 > #nav > h4{
+  font-size: 10px;
+  font-weight: 500;
+  margin-left: 300px;
+}
+
+#frame9 > #nav > img{
+  height: 20px;
+  width: fit-content;
+  margin-left: 300px;
+}
+
+#frame9 > #nav > a{
+  font-size: 10px;
+  margin-left: 300px;
+}
+
+#frame9 > #mainb{
+ 
+ 
+  margin-top: -10px;
+  margin-left: 50px;
+  display: flex;
+}
+
+#frame9 > #mainb > h5{
+  font-size: 8px;
+  margin-top: 140px;
+}
+
+#frame9 > #mainb > h1{
+  font-size: 137px;
+  letter-spacing: -1px;
+  margin-left: 10px;
+}
+
+#frame9 > #first{
+  margin-left: 70px;
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+#frame9 > #second{
+  margin-left: 500px;
+  font-size: 13px;
+  margin-top: -220px;
+  
+}
+
+#frame9 > #oneI{
+  height: 357px;
+  width: fit-content;
+  margin-left: 1000px;
+  border-radius: 17px;
+  margin-top: -1000px;
+}
+
+#frame9 > #twoI{
+  width: 377px;
+  height: fit-content;
+  border-radius: 17px;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+#frame9 > #corner{
+  font-size: 15px;
+  margin-left: 800px;
+  margin-top: -150px;
+
+}
+
+#frame10{
+  border: 1.5px solid #212125;
+  padding: 10px;
+  border-radius: 21px;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+#frame10> #nav{
+  display: flex;
+}
+
+#frame10> #nav  >h1{
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#frame10> #nav > h4{
+  font-size: 10px;
+  font-weight: 500;
+  margin-left: 300px;
+}
+
+#frame10> #nav > img{
+  height: 20px;
+  width: fit-content;
+  margin-left: 300px;
+}
+
+#frame10> #nav > a{
+  font-size: 10px;
+  margin-left: 300px;
+}
+
+#frame10> #mainb{
+ 
+ 
+  margin-top: -10px;
+  margin-left: 50px;
+  display: flex;
+}
+
+#frame10> #mainb > h5{
+  font-size: 8px;
+  margin-top: 140px;
+}
+
+#frame10> #mainb > h1{
+  font-size: 137px;
+  letter-spacing: -1px;
+  margin-left: 10px;
+}
+
+#frame10> #first{
+  margin-left: 70px;
+  margin-top: 30px;
+  font-size: 13px;
+}
+
+#frame10 > #second{
+  margin-left: 500px;
+  font-size: 13px;
+  margin-top: -220px;
+  
+}
+
+#frame10> #oneI{
+  height: 357px;
+  width: fit-content;
+  margin-left: 1000px;
+  border-radius: 17px;
+  margin-top: -1000px;
+}
+
+#frame10 > #twoI{
+  width: 377px;
+  height: fit-content;
+  border-radius: 17px;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+#frame10 > #corner{
+  font-size: 15px;
+  margin-left: 800px;
+  margin-top: -150px;
+
+}
+
+#frame11{
+  border: 1.5px solid #212125;
+  padding: 10px;
+  border-radius: 21px;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+#frame11> #nav{
+  display: flex;
+}
+
+#frame11> #nav  >h1{
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#frame11> #nav > h4{
+  font-size: 10px;
+  font-weight: 500;
+  margin-left: 300px;
+}
+
+#frame11> #nav > img{
+  height: 20px;
+  width: fit-content;
+  margin-left: 300px;
+}
+
+#frame11> #nav > a{
+  font-size: 10px;
+  margin-left: 300px;
+}
+
+#frame11 > #heading1{
+  font-size: 137px;
+  letter-spacing: -1px;
+  margin-left: 10px;
+  margin-top: 150px;
+
+}
+
+#frame11 > #heading2{
+  font-size: 137px;
+  letter-spacing: -1px;
+  margin-left: 10px;
+  margin-top: -70px;
+
+}
+
+#frame11  >#manager{
+  /* border: 1px solid green;
+   */
+  background-color: #DBD8CD;
+  border-radius: 17px;
+  margin-left: 700px;
+  padding: 10px;
+  margin-top: -450px;
+}
+
+#frame11  >#manager > img{
+  height: 20px;
+  width: fit-content;
+}
+
+#frame11  >#manager >a{
+  margin-top: 50px;
+  margin-left: 250px;
+}
+
+#frame11  >#manager > p{
+  font-size: 13px;
+  margin-left: 250px;
+  margin-top: -13px;
+  margin-bottom: 40px;
+}
+
+#frame11  >#manager > h4{
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+#frame11  >#manager > h5{
+  font-size: 10px;
+}
+
+#frame11  >#seo{
+  /* border: 1px solid green;
+   */
+  background-color: #DBD8CD;
+  border-radius: 17px;
+  margin-left: 700px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+#frame11  >#seo > img{
+  height: 20px;
+  width: fit-content;
+}
+
+#frame11  >#seo >a{
+  margin-top: 50px;
+  margin-left: 250px;
+}
+
+#frame11  >#seo > p{
+  font-size: 13px;
+  margin-left: 250px;
+  margin-top: -13px;
+  margin-bottom: 40px;
+}
+
+#frame11  >#seo > h4{
+  font-size: 10px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+#frame11  >#seo > h5{
+  font-size: 10px;
+}
+
+#frame11  >#cornerr{
+  margin-left: 10px;
+  font-size: 13px;
+  margin-top: -40px;
+}
+
+#frame12{
+  border: 1.5px solid #212125;
+  padding-top: 10px;
+  /* padding-bottom: 5px; */
+  padding-left: 10px;
+  border-radius: 21px;
+  margin-top: 80px;
+  margin-left: 20px;
+}
+
+#frame12> #nav{
+  display: flex;
+}
+
+#frame12> #nav  >h1{
+  margin-left: 50px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#frame12> #nav > h4{
+  font-size: 10px;
+  font-weight: 500;
+  margin-left: 300px;
+}
+
+#frame12> #nav > img{
+  height: 20px;
+  width: fit-content;
+  margin-left: 300px;
+}
+
+#frame12> #nav > a{
+  font-size: 10px;
+  margin-left: 300px;
+}
+
+#frame12 > #lastp{
+  height: 570px;
+  width: fit-content;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 13px;
+}
+
+#frame12 > #hello{
+  margin-left: 600px;
+  margin-top: -500px;
+}
+
+#frame12  >#name{
+  margin-left: 600px;
+  margin-top: 20px;
+  opacity: 70%;
+}
+
+#frame12 > #address{
+  margin-left: 850px;
+  margin-top: -165px;
+}
+
+#frame12  >#nirala{
+  margin-left: 850px;
+  margin-top: 20px;
+  opacity: 80%;
+  /* font-weight: bold; */
+}
+
+#frame12 > #icon{
+  height: 20px;
+  width: fit-content;
+  margin-top: 150px;
+}
+
+#frame12 > a{
+  margin-left: 600px;
+  margin-top: 350px;
+}
+
+#frame12 > #cornerrr{
+  font-size: 140px;
+  margin-left: 410px;
+  margin-top: 40px;
 }
