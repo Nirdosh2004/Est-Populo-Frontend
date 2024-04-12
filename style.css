@@ -6,6 +6,11 @@
           box-sizing: border-box;
 }
 
+img:hover{
+  height: 200px;
+}
+
+
 *::selection{
           color: #f8f8f8;
           background-color: #212125;
@@ -17,23 +22,34 @@ html,body{
           width: 100%;
           background-color: #f8f8f8;
           border-radius: 23px;
+          scroll-behavior: smooth;
           
 }
 
 a{
   color: #212125;
   font-weight: 550;
-  /* text-decoration: none; */
+  text-decoration: none ;
+  border: 0.3px solid #212125;
+  padding: 5px;
+  border-radius: 12px;
+  font-size: 15px;
+ 
 }
 
 a:hover{
-  color: #555D50;
-  text-decoration: none;
+  color: #f8f8f8;
+  /* text-decoration: none; */
+  /* text-decoration-thickness: .03em ; */
+  background-color: #212125;
+  
 }
 
 h1 , h2 , h3,h4,h5,h6 , p{
           color: #212125;
 }
+
+
 
 #top{
           background-color: #E5E3DB;
@@ -71,12 +87,18 @@ h1 , h2 , h3,h4,h5,h6 , p{
 }
 
 #top2 > a{
-          color: #212125;
+          /* color: #212125; */
           font-weight: 577;
-          text-decoration: underline;
+          /* text-decoration: underline; */
           margin-left: 470px;
           margin-top: 25px;
           font-size: 10px;
+          border: none;
+}
+
+#top2 > a:hover{
+  color: #212125;
+  background-color: #f8f8f8;
 }
 
 #center1{
@@ -98,9 +120,6 @@ h1 , h2 , h3,h4,h5,h6 , p{
           font-weight: 500;
 }
 
-#titlename{
-          /* background-color: grey; */
-}
 
 #titlename > h1{
           font-size: 100px;
@@ -200,7 +219,7 @@ h1 , h2 , h3,h4,h5,h6 , p{
 }
 
 #frame2 > #headings3 > #para > #btn1 > #viewaboutus1{
-          color: #212125;
+          /* color: #212125; */
           font-weight: 600;
 
 }
@@ -609,10 +628,19 @@ letter-spacing: -1px;
   margin-left: 500px;
 }
 
+#frame5 > #social > a{
+  /* margin-bottom: 20px; */
+  border: none;
+}
+
 #frame5 > #handles{
   margin-top: -95px;
  
   margin-left: 700px;
+}
+
+#frame5 > #handles > a{
+  border: none;
 }
 
 #frame5 > #places{
@@ -625,6 +653,16 @@ letter-spacing: -1px;
   margin-top: -50px;
  opacity: 70%;
   margin-left: 700px;
+}
+
+#frame5 > #conditions > a{
+  border: none;
+}
+
+#frame5 > #conditions > a:hover{
+  background-color: #f8f8f8;
+  color: #212125;
+  text-decoration: underline;
 }
 
 #frame5 > #last{
@@ -1182,6 +1220,7 @@ letter-spacing: -1px;
   /* border: 1px solid green;
    */
   background-color: #DBD8CD;
+ backface-visibility: inherit;
   border-radius: 17px;
   margin-left: 700px;
   padding: 10px;
