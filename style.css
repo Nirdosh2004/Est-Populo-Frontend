@@ -31,9 +31,9 @@ a{
   font-weight: 550;
   text-decoration: none ;
   border: 0.3px solid #212125;
-  padding: 5px;
+  padding: .5vw;
   border-radius: 12px;
-  font-size: 15px;
+  font-size: 1vw;
  
 }
 
@@ -75,6 +75,7 @@ h1 , h2 , h3,h4,h5,h6 , p{
 }
 
 #top2 > h1{
+  
           font-weight: 550;
 }
 
@@ -193,6 +194,7 @@ h1 , h2 , h3,h4,h5,h6 , p{
 }
 
 #frame2 > #headings1 > h5{
+  border-bottom: 1px solid #212125;
           margin-top: 10px;
           font-size: 10px;      
 }
@@ -252,6 +254,7 @@ h1 , h2 , h3,h4,h5,h6 , p{
 
 #frame3 > #top1 > h5{
           margin-top: 10px;
+          /* border-bottom: 1px solid #212125; */
           font-size: 10px; 
 }
 
@@ -266,6 +269,7 @@ letter-spacing: -1px;
 #frame3 > #content  > #performance{
   display: flex;
   /* text-decoration: underline; */
+  
 }
 
 #frame3 > #content  > #performance > img{
@@ -275,6 +279,7 @@ letter-spacing: -1px;
   margin-left: 250px;
   margin-top: 110px;
   /* margin-right: 100px; */
+
 }
 
 #frame3 > #content  > #performance > h1{
@@ -282,6 +287,7 @@ letter-spacing: -1px;
   margin-top: 90px;
   margin-left: 70px;
   color: #212125;
+  border-top: 1px solid #212125;
 }
 
 #frame3 > #content  > #performance > h2{
@@ -312,7 +318,11 @@ letter-spacing: -1px;
 #frame3 > #content  > #growth{
   display: flex;
   /* text-decoration: underline; */
+  /* border-top: 1px solid #212125; */
+ 
+ 
 }
+
 
 #frame3 > #content  > #growth > img{
   height: 200px;
@@ -328,6 +338,7 @@ letter-spacing: -1px;
   margin-top: 90px;
   margin-left: 70px;
   color: #212125;
+  border-top: 1px solid #212125;
 }
 
 #frame3 > #content  > #growth > h2{
@@ -374,6 +385,8 @@ letter-spacing: -1px;
   margin-top: 90px;
   margin-left: 70px;
   color: #212125;
+  border-top: 1px solid #212125;
+
 }
 
 #frame3 > #content  > #creative > h2{
@@ -420,6 +433,7 @@ letter-spacing: -1px;
   margin-top: 90px;
   margin-left: 70px;
   color: #212125;
+  border-top: 1px solid #212125;
 }
 
 #frame3 > #content  > #brands > h2{
@@ -464,6 +478,7 @@ letter-spacing: -1px;
 #frame3 > #content  > #aboutus >  h1{
   font-size: 100px;
   margin-top: 90px;
+  border-top: 1px solid #212125;
   margin-left: 70px;
   color: #212125;
 }
@@ -1051,6 +1066,7 @@ letter-spacing: -1px;
 }
 
 #frame10> #nav  >h1{
+  /* border-bottom: 1px solid #212125; */
   margin-left: 50px;
   font-size: 20px;
   font-weight: 800;
@@ -1088,6 +1104,7 @@ letter-spacing: -1px;
 
 #frame10> #mainb > h1{
   font-size: 137px;
+  /* border-bottom: 1px solid #212125; */
   letter-spacing: -1px;
   margin-left: 10px;
 }
